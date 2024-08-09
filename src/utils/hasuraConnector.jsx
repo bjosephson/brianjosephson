@@ -16,7 +16,7 @@ const HasuraConnector = ({ children }) => {
       };
     });
     const httpLink = new HttpLink({
-      uri: "https://ranco-one-graph.hasura.app/v1/graphql",
+      uri: "https://brian-josephson.hasura.app/v1/graphql",
     });
     return new ApolloClient({
       link: from([authMiddleware, httpLink]),

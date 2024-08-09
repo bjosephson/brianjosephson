@@ -66,6 +66,7 @@ const MainUI = (props) => {
         }}>
           <Route path="/" component={Home} />
           <Route path="/files" component={BlobFiles} />
+          <Route path="/finance" component={Finance} />
 
           {props.children}
         </div>
